@@ -1,13 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import DisplayCounter from "./components/displayCounter";
 import "./App.css";
+import Users from "./components/Users";
 function App() {
   return (
     <>
-      <div id="container-content">
-        <DisplayCounter />
-      </div>
+       <Users />
     </>
   );
 }
